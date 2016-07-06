@@ -236,4 +236,9 @@ services:
     num_units: 1
     to:
     - lxc:0
+description: |
+  This bundle deploys a basic OpenStack Cloud (Mitaka release) on Ubuntu 16.04 LTS, providing Dashboard, Compute, Network, Block Storage, Object Storage, Identity and Image services.
 
+  This bundle is designed to run on bare metal using Juju with MAAS (Metal-as-a-Service); you will need to have setup a MAAS deployment with a minimum of 4 physical servers prior to using this bundle.
+tags:
+  - conjure-openstack
