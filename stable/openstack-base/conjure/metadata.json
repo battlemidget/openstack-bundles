@@ -1,7 +1,6 @@
 {
     "friendly-name": "OpenStack",
     "cloud-whitelist": [
-        "localhost",
         "maas"
     ],
     "packages": ["openstack"]
