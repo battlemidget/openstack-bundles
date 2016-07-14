@@ -242,3 +242,4 @@ description: |
   This bundle is designed to run on bare metal using Juju with MAAS (Metal-as-a-Service); you will need to have setup a MAAS deployment with a minimum of 4 physical servers prior to using this bundle.
 tags:
   - conjure-up-openstack
+  - conjure-openstack
