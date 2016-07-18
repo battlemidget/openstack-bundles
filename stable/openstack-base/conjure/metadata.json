@@ -3,5 +3,15 @@
     "cloud-whitelist": [
         "maas"
     ],
-    "packages": ["openstack"]
+    "packages": ["openstack"],
+    "options-whitelist": {
+        "ceph-osd": ["osd-devices", "osd-reformat"],
+        "cinder": ["block-device", "glance-api-version"],
+        "keystone": ["admin-password"],
+        "mysql": ["max-connections"],
+        "neutron-api": ["neutron-security-groups"],
+        "neutron-gateway": ["ext-port"],
+        "nova-cloud-controller": ["network-manager"],
+        "nova-compute": ["enable-live-migration", "enable-resize", "migration-auth-type"]
+    }
 }
